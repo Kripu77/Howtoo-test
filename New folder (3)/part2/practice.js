@@ -157,9 +157,20 @@ console.log(biggest(arrayProblem)); //output 7
 //  * @param {number} end 
 //  * @returns {array}
 //  */
-// function range (start, end) {
-//   return [];
-// }
+function range (start, end) {
+//empty array
+  let range = []
+//for loop to check if the starting value is less than end
+  for(let i=start; i<end; i++){
+    range.push(start++)
+    //simply push the value and increment till it reaches the threeshold
+    }
+  return range ;
+
+}
+
+//our range
+console.log(range(0,5))
 
 /**
  * Recursively flattens array.
