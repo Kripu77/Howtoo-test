@@ -102,7 +102,7 @@ function fibonacci (length) {
   
 }
 
-console.log(fibonacci(4))
+console.log(fibonacci(5))
 
 // /**
 //  * return the biggest number in the array
@@ -201,13 +201,13 @@ function flatten(array) {
 }
 console.log(flatten([1, [2, 3, [4]]]));
 
-// module.exports = {
-//   dummy,
-//   fibonacci,
-//   reverse,
-//   flatten,
-//   biggest,
-//   flatten,
-//   stringReverse,
-//   range
-// };
+module.exports = {
+  dummy,
+  fibonacci,
+  reverse,
+  flatten,
+  biggest,
+  flatten,
+  stringReverse,
+  range
+};
